@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d2jtughh7tpd4"]
+
+[ext_resource type="Texture2D" uid="uid://ccpk2ch0167f8" path="res://materials/BardedWire.png" id="1_syx71"]
+
+[resource]
+resource_name = "BarbedWire"
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_syx71")
+metallic_specular = 0.0
+texture_filter = 4

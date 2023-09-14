@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3edqplic8txm"]
+
+[ext_resource type="Theme" uid="uid://6jp5qwy7bequ" path="res://Default.theme" id="1_dgr6u"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ks53e"]
+shadow_size = 3
+shadow_color = Color(0, 0, 0, 1)
+
+[node name="PlayerHUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1_dgr6u")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 256.0
+offset_bottom = 48.0
+text = "Avoid the Noid"
+label_settings = SubResource("LabelSettings_ks53e")

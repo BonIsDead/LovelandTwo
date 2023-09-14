@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bmpscvruqa2qm"]
+
+[ext_resource type="Texture2D" uid="uid://dnpwb8m3axiq4" path="res://materials/LinkedFence.png" id="1_et425"]
+
+[resource]
+resource_name = "LinkedFence"
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_et425")
+metallic_specular = 0.0
+texture_filter = 4

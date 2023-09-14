@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://inxkec77g7px"]
+
+[ext_resource type="Texture2D" uid="uid://bojrrifsj7v8k" path="res://materials/CrumpledRustyMetal.png" id="1_srqp7"]
+
+[resource]
+resource_name = "CrumpledRustyMetal"
+cull_mode = 2
+albedo_texture = ExtResource("1_srqp7")
+texture_filter = 4
